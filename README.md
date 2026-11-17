@@ -18,16 +18,15 @@ HTML + CSS uniquement : aucun framework, aucun cookie, aucun traceur.
 ## À compléter
 
 Chercher les crochets `[` dans les fichiers : phrases de présentation,
-descriptions, fonctionnalités et lien Google Play de Recruito
-(`[LIEN_GOOGLE_PLAY_RECRUITO]`, dans `index.html` et `applications/recruito.html`).
+descriptions et fonctionnalités de Recruito et Flexibilité Mentale.
 
 ## Textes légaux des applications
 
 Copier le contenu du dossier `site-legal/` de chaque projet dans le dossier
 correspondant (les fichiers copiés remplacent la page d'attente `index.html`) :
 
-- Kidavie : contenu de `Kidavie/site-legal/kidavie/` → `kidavie/`
-- Flexibilité Mentale : contenu de `flexibilite-mentale/site-legal/` → `flexibilite-mentale/`
+- Kidavie (à la sortie, une fois les crochets complétés) : contenu de `Kidavie/site-legal/kidavie/` → `kidavie/`
+- Flexibilité Mentale : contenu de `flexibilite-mentale/site-legal/` → `flexibilite-mentale/` (fait le 17/11/2026)
 - Recruito : contenu de `site-legal/` du projet → `recruito/`
 
 Puis : `git add -A && git commit -m "Textes légaux" && git push`.
@@ -37,4 +36,4 @@ Puis : `git add -A && git commit -m "Textes légaux" && git push`.
 Dans `index.html` et `applications/<appli>.html`, remplacer
 `<span class="statut bientot">Bientôt disponible</span>` par
 `<span class="statut dispo">Disponible sur Google Play</span>` et ajouter le lien
-(voir Recruito pour l'exemple).
+: `<a href="https://play.google.com/store/apps/details?id=...">Voir sur Google Play</a>`.
