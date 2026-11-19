@@ -17,8 +17,8 @@ HTML + CSS uniquement : aucun framework, aucun cookie, aucun traceur.
 
 ## À compléter
 
-Chercher les crochets `[` dans les fichiers : phrases de présentation,
-descriptions et fonctionnalités de Recruito et Flexibilité Mentale.
+Plus aucun texte entre crochets sur les pages du studio (19/11/2026).
+Les textes légaux de Flexibilité Mentale contiennent encore des crochets à faire valider par un juriste.
 
 ## Textes légaux des applications
 
